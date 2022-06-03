@@ -1,0 +1,38 @@
+.Product-article{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 1px black solid;
+    border-radius: 1em;
+    margin: 2%;
+    padding: 2%;
+}
+
+.Product-image{
+    width: 100%;
+}
+
+.Product-div{
+    padding: 0% 5%;
+}
+
+.Product-div-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.Product-div-header span{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 1em;
+}
+
+.spanAvailable{
+    background-color: rgba(25, 148, 72, 0.705);
+}
+
+.spanUnavailable{
+    background-color: rgb(153, 24, 24);
+}
